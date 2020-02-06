@@ -7,8 +7,9 @@
                     event.getChannel().sendMessage("Happy birthday, <@4533452126647746576>!" +
                             " Here's something my creator made for you. If you'd like to see the source," +
                             " here's the Github. I wish you a good one!" +
-                            " :confetti_ball: :partying_face:").queue();
-                    event.getChannel().sendMessage("https://github.com/SirLeoTheLionHearted/birthday-                        command/blob/master/BirthdayCommand.txt\n").queue();
+                            " :confetti_ball: :partying_face:").queue(); // wish happy birthday,
+                    event.getChannel().sendMessage("https://github.com/SirLeoTheLionHearted/birthday- 
+                    command/blob/master/BirthdayCommand.txt\n").queue();
                     Owner.getManager().setName("CoOwner").complete(); // Change "Owner" to "coOwner,"
                     event.getGuild().addRoleToMember(ghostId, Owner).queue(); // and add the role to Ghost.
                 }
